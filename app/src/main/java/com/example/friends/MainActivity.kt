@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val migos = Migos (nombre = "Andres", ocupación = "actor", descripción = "juan joyita", imagen = R.drawable.andres)
+        val migos = Migos (nombre = "Andres", ocupación = "actor", descripción = "Novela juan joyita", imagen = R.drawable.andres)
         val migos2 = Migos(nombre = "enrique", ocupación = "cantante", descripción = "nunca te ovidare", imagen = R.drawable.enrique)
         val migos3 = Migos(nombre = "mariana", ocupación = "atleta", descripción = "bicicleta", imagen = R.drawable.mariana)
         val migos4 = Migos(nombre = "jason", ocupación = "cantante", descripción = "i´m yours", imagen = R.drawable.jason)
